@@ -15,6 +15,16 @@
 		3F1F8AB9257926A800BF3AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F8AB7257926A800BF3AC4 /* LaunchScreen.storyboard */; };
 		3F1F8AC4257926A800BF3AC4 /* CooklahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1F8AC3257926A800BF3AC4 /* CooklahTests.swift */; };
 		3F1F8ACF257926A800BF3AC4 /* CooklahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1F8ACE257926A800BF3AC4 /* CooklahUITests.swift */; };
+		3F2485F025860C96005F50F5 /* InitialPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2485EF25860C96005F50F5 /* InitialPage.swift */; };
+		3F2485F525860CAA005F50F5 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2485F425860CAA005F50F5 /* SignIn.swift */; };
+		3F2485FA25860CB7005F50F5 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2485F925860CB7005F50F5 /* SignUp.swift */; };
+		3F2485FF25860CCF005F50F5 /* WelcomeBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2485FE25860CCF005F50F5 /* WelcomeBoard.swift */; };
+		3F24860425860CE5005F50F5 /* SelectPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24860325860CE5005F50F5 /* SelectPref.swift */; };
+		3F24860925860D06005F50F5 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24860825860D06005F50F5 /* HomePage.swift */; };
+		3F24860E25860D15005F50F5 /* InitialCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24860D25860D15005F50F5 /* InitialCourse.swift */; };
+		3F24861325860D25005F50F5 /* FirstChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24861225860D25005F50F5 /* FirstChallenge.swift */; };
+		3F24861825860D34005F50F5 /* FinishChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24861725860D34005F50F5 /* FinishChallenge.swift */; };
+		3F24861D25866DD9005F50F5 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F24861C25866DD9005F50F5 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		3F1F8ACA257926A800BF3AC4 /* CooklahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooklahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1F8ACE257926A800BF3AC4 /* CooklahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooklahUITests.swift; sourceTree = "<group>"; };
 		3F1F8AD0257926A800BF3AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2485EF25860C96005F50F5 /* InitialPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPage.swift; sourceTree = "<group>"; };
+		3F2485F425860CAA005F50F5 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		3F2485F925860CB7005F50F5 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		3F2485FE25860CCF005F50F5 /* WelcomeBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBoard.swift; sourceTree = "<group>"; };
+		3F24860325860CE5005F50F5 /* SelectPref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPref.swift; sourceTree = "<group>"; };
+		3F24860825860D06005F50F5 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		3F24860D25860D15005F50F5 /* InitialCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCourse.swift; sourceTree = "<group>"; };
+		3F24861225860D25005F50F5 /* FirstChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChallenge.swift; sourceTree = "<group>"; };
+		3F24861725860D34005F50F5 /* FinishChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishChallenge.swift; sourceTree = "<group>"; };
+		3F24861C25866DD9005F50F5 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,8 @@
 		3F1F8AA0257926A600BF3AC4 = {
 			isa = PBXGroup;
 			children = (
+				3F24861C25866DD9005F50F5 /* video.mp4 */,
+				3F2485EE25860C7F005F50F5 /* VC */,
 				3F1F8AAB257926A600BF3AC4 /* Cooklah */,
 				3F1F8AC2257926A800BF3AC4 /* CooklahTests */,
 				3F1F8ACD257926A800BF3AC4 /* CooklahUITests */,
@@ -126,6 +148,22 @@
 				3F1F8AD0257926A800BF3AC4 /* Info.plist */,
 			);
 			path = CooklahUITests;
+			sourceTree = "<group>";
+		};
+		3F2485EE25860C7F005F50F5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3F2485EF25860C96005F50F5 /* InitialPage.swift */,
+				3F2485F425860CAA005F50F5 /* SignIn.swift */,
+				3F2485F925860CB7005F50F5 /* SignUp.swift */,
+				3F2485FE25860CCF005F50F5 /* WelcomeBoard.swift */,
+				3F24860325860CE5005F50F5 /* SelectPref.swift */,
+				3F24860825860D06005F50F5 /* HomePage.swift */,
+				3F24860D25860D15005F50F5 /* InitialCourse.swift */,
+				3F24861225860D25005F50F5 /* FirstChallenge.swift */,
+				3F24861725860D34005F50F5 /* FinishChallenge.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +271,7 @@
 			files = (
 				3F1F8AB9257926A800BF3AC4 /* LaunchScreen.storyboard in Resources */,
 				3F1F8AB6257926A800BF3AC4 /* Assets.xcassets in Resources */,
+				3F24861D25866DD9005F50F5 /* video.mp4 in Resources */,
 				3F1F8AB4257926A600BF3AC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F24861825860D34005F50F5 /* FinishChallenge.swift in Sources */,
+				3F24860425860CE5005F50F5 /* SelectPref.swift in Sources */,
+				3F24860925860D06005F50F5 /* HomePage.swift in Sources */,
 				3F1F8AB1257926A600BF3AC4 /* ViewController.swift in Sources */,
+				3F24860E25860D15005F50F5 /* InitialCourse.swift in Sources */,
+				3F2485FF25860CCF005F50F5 /* WelcomeBoard.swift in Sources */,
+				3F2485FA25860CB7005F50F5 /* SignUp.swift in Sources */,
 				3F1F8AAD257926A600BF3AC4 /* AppDelegate.swift in Sources */,
+				3F2485F525860CAA005F50F5 /* SignIn.swift in Sources */,
 				3F1F8AAF257926A600BF3AC4 /* SceneDelegate.swift in Sources */,
+				3F24861325860D25005F50F5 /* FirstChallenge.swift in Sources */,
+				3F2485F025860C96005F50F5 /* InitialPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
